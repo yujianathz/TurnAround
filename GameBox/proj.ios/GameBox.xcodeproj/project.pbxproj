@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10330BD61C9FDE2F00A7B9DA /* GBCsv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BA31C9FDE2F00A7B9DA /* GBCsv.cpp */; };
+		10330BD71C9FDE2F00A7B9DA /* GBLang.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BA51C9FDE2F00A7B9DA /* GBLang.cpp */; };
+		10330BD81C9FDE2F00A7B9DA /* GBSqlite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BA71C9FDE2F00A7B9DA /* GBSqlite.cpp */; };
+		10330BD91C9FDE2F00A7B9DA /* GBUpdate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BA91C9FDE2F00A7B9DA /* GBUpdate.cpp */; };
+		10330BDA1C9FDE2F00A7B9DA /* GBValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BAB1C9FDE2F00A7B9DA /* GBValue.cpp */; };
+		10330BDB1C9FDE2F00A7B9DA /* GBDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BAE1C9FDE2F00A7B9DA /* GBDelegate.cpp */; };
+		10330BDC1C9FDE2F00A7B9DA /* GBShaderEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BB01C9FDE2F00A7B9DA /* GBShaderEffect.cpp */; };
+		10330BDD1C9FDE2F00A7B9DA /* GBUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BB21C9FDE2F00A7B9DA /* GBUtils.cpp */; };
+		10330BDE1C9FDE2F00A7B9DA /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BB51C9FDE2F00A7B9DA /* md5.cpp */; };
+		10330BDF1C9FDE2F00A7B9DA /* GBSocketBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BB81C9FDE2F00A7B9DA /* GBSocketBase.cpp */; };
+		10330BE01C9FDE2F00A7B9DA /* GBSocketClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BBA1C9FDE2F00A7B9DA /* GBSocketClient.cpp */; };
+		10330BE51C9FDE2F00A7B9DA /* lua_gamebox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BC71C9FDE2F00A7B9DA /* lua_gamebox.cpp */; };
+		10330BE61C9FDE2F00A7B9DA /* GBButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BCA1C9FDE2F00A7B9DA /* GBButton.cpp */; };
+		10330BE71C9FDE2F00A7B9DA /* GBForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BCC1C9FDE2F00A7B9DA /* GBForm.cpp */; };
+		10330BE81C9FDE2F00A7B9DA /* GBList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BCE1C9FDE2F00A7B9DA /* GBList.cpp */; };
+		10330BE91C9FDE2F00A7B9DA /* GBNumberLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BD01C9FDE2F00A7B9DA /* GBNumberLabel.cpp */; };
+		10330BEA1C9FDE2F00A7B9DA /* GBPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BD21C9FDE2F00A7B9DA /* GBPanel.cpp */; };
+		10330BEB1C9FDE2F00A7B9DA /* GBShaderButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10330BD41C9FDE2F00A7B9DA /* GBShaderButton.cpp */; };
+		10330C131C9FFE2C00A7B9DA /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 10330C121C9FFE2C00A7B9DA /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		10330C151CA0000F00A7B9DA /* GBUtils_ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 10330C141CA0000F00A7B9DA /* GBUtils_ios.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		10330B921C9FDD5800A7B9DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		10330B941C9FDD5800A7B9DA /* libGameBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGameBox.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		10330BA31C9FDE2F00A7B9DA /* GBCsv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GBCsv.cpp; sourceTree = "<group>"; };
+		10330BA41C9FDE2F00A7B9DA /* GBCsv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBCsv.h; sourceTree = "<group>"; };
+		10330BA51C9FDE2F00A7B9DA /* GBLang.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GBLang.cpp; sourceTree = "<group>"; };
+		10330BA61C9FDE2F00A7B9DA /* GBLang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBLang.h; sourceTree = "<group>"; };
+		10330BA71C9FDE2F00A7B9DA /* GBSqlite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GBSqlite.cpp; sourceTree = "<group>"; };
+		10330BA81C9FDE2F00A7B9DA /* GBSqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBSqlite.h; sourceTree = "<group>"; };
+		10330BA91C9FDE2F00A7B9DA /* GBUpdate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GBUpdate.cpp; sourceTree = "<group>"; };
+		10330BAA1C9FDE2F00A7B9DA /* GBUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBUpdate.h; sourceTree = "<group>"; };
+		10330BAB1C9FDE2F00A7B9DA /* GBValue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GBValue.cpp; sourceTree = "<group>"; };
+		10330BAC1C9FDE2F00A7B9DA /* GBValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBValue.h; sourceTree = "<group>"; };
+		10330BAD1C9FDE2F00A7B9DA /* GBDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDefine.h; sourceTree = "<group>"; };
+		10330BAE1C9FDE2F00A7B9DA /* GBDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GBDelegate.cpp; sourceTree = "<group>"; };
+		10330BAF1C9FDE2F00A7B9DA /* GBDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDelegate.h; sourceTree = "<group>"; };
+		10330BB01C9FDE2F00A7B9DA /* GBShaderEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GBShaderEffect.cpp; sourceTree = "<group>"; };
+		10330BB11C9FDE2F00A7B9DA /* GBShaderEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBShaderEffect.h; sourceTree = "<group>"; };
+		10330BB21C9FDE2F00A7B9DA /* GBUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GBUtils.cpp; sourceTree = "<group>"; };
+		10330BB31C9FDE2F00A7B9DA /* GBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBUtils.h; sourceTree = "<group>"; };
+		10330BB51C9FDE2F00A7B9DA /* md5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = md5.cpp; sourceTree = "<group>"; };
+		10330BB61C9FDE2F00A7B9DA /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		10330BB81C9FDE2F00A7B9DA /* GBSocketBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GBSocketBase.cpp; sourceTree = "<group>"; };
+		10330BB91C9FDE2F00A7B9DA /* GBSocketBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBSocketBase.h; sourceTree = "<group>"; };
+		10330BBA1C9FDE2F00A7B9DA /* GBSocketClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GBSocketClient.cpp; sourceTree = "<group>"; };
+		10330BBB1C9FDE2F00A7B9DA /* GBSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBSocketClient.h; sourceTree = "<group>"; };
+		10330BC01C9FDE2F00A7B9DA /* GBAnySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBAnySDK.h; sourceTree = "<group>"; };
+		10330BC71C9FDE2F00A7B9DA /* lua_gamebox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_gamebox.cpp; sourceTree = "<group>"; };
+		10330BC81C9FDE2F00A7B9DA /* lua_gamebox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua_gamebox.h; sourceTree = "<group>"; };
+		10330BCA1C9FDE2F00A7B9DA /* GBButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GBButton.cpp; sourceTree = "<group>"; };
+		10330BCB1C9FDE2F00A7B9DA /* GBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBButton.h; sourceTree = "<group>"; };
+		10330BCC1C9FDE2F00A7B9DA /* GBForm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GBForm.cpp; sourceTree = "<group>"; };
+		10330BCD1C9FDE2F00A7B9DA /* GBForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBForm.h; sourceTree = "<group>"; };
+		10330BCE1C9FDE2F00A7B9DA /* GBList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GBList.cpp; sourceTree = "<group>"; };
+		10330BCF1C9FDE2F00A7B9DA /* GBList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBList.h; sourceTree = "<group>"; };
+		10330BD01C9FDE2F00A7B9DA /* GBNumberLabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GBNumberLabel.cpp; sourceTree = "<group>"; };
+		10330BD11C9FDE2F00A7B9DA /* GBNumberLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBNumberLabel.h; sourceTree = "<group>"; };
+		10330BD21C9FDE2F00A7B9DA /* GBPanel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GBPanel.cpp; sourceTree = "<group>"; };
+		10330BD31C9FDE2F00A7B9DA /* GBPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBPanel.h; sourceTree = "<group>"; };
+		10330BD41C9FDE2F00A7B9DA /* GBShaderButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GBShaderButton.cpp; sourceTree = "<group>"; };
+		10330BD51C9FDE2F00A7B9DA /* GBShaderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBShaderButton.h; sourceTree = "<group>"; };
+		10330C111C9FFE2C00A7B9DA /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
+		10330C121C9FFE2C00A7B9DA /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
+		10330C141CA0000F00A7B9DA /* GBUtils_ios.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GBUtils_ios.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10330B911C9FDD5800A7B9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10330B8B1C9FDD5800A7B9DA = {
+			isa = PBXGroup;
+			children = (
+				10330BA11C9FDE2F00A7B9DA /* Classes */,
+				10330B951C9FDD5800A7B9DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10330B951C9FDD5800A7B9DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10330B941C9FDD5800A7B9DA /* libGameBox.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10330BA11C9FDE2F00A7B9DA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				10330BA21C9FDE2F00A7B9DA /* Data */,
+				10330BAD1C9FDE2F00A7B9DA /* GBDefine.h */,
+				10330BAE1C9FDE2F00A7B9DA /* GBDelegate.cpp */,
+				10330BAF1C9FDE2F00A7B9DA /* GBDelegate.h */,
+				10330BB01C9FDE2F00A7B9DA /* GBShaderEffect.cpp */,
+				10330BB11C9FDE2F00A7B9DA /* GBShaderEffect.h */,
+				10330BB21C9FDE2F00A7B9DA /* GBUtils.cpp */,
+				10330BB31C9FDE2F00A7B9DA /* GBUtils.h */,
+				10330BB41C9FDE2F00A7B9DA /* MD5 */,
+				10330BB71C9FDE2F00A7B9DA /* Network */,
+				10330BBC1C9FDE2F00A7B9DA /* Platform */,
+				10330BC51C9FDE2F00A7B9DA /* Script */,
+				10330BC91C9FDE2F00A7B9DA /* UI */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		10330BA21C9FDE2F00A7B9DA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				10330BA31C9FDE2F00A7B9DA /* GBCsv.cpp */,
+				10330BA41C9FDE2F00A7B9DA /* GBCsv.h */,
+				10330BA51C9FDE2F00A7B9DA /* GBLang.cpp */,
+				10330BA61C9FDE2F00A7B9DA /* GBLang.h */,
+				10330BA71C9FDE2F00A7B9DA /* GBSqlite.cpp */,
+				10330BA81C9FDE2F00A7B9DA /* GBSqlite.h */,
+				10330BA91C9FDE2F00A7B9DA /* GBUpdate.cpp */,
+				10330BAA1C9FDE2F00A7B9DA /* GBUpdate.h */,
+				10330BAB1C9FDE2F00A7B9DA /* GBValue.cpp */,
+				10330BAC1C9FDE2F00A7B9DA /* GBValue.h */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		10330BB41C9FDE2F00A7B9DA /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				10330BB51C9FDE2F00A7B9DA /* md5.cpp */,
+				10330BB61C9FDE2F00A7B9DA /* md5.h */,
+			);
+			path = MD5;
+			sourceTree = "<group>";
+		};
+		10330BB71C9FDE2F00A7B9DA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				10330BB81C9FDE2F00A7B9DA /* GBSocketBase.cpp */,
+				10330BB91C9FDE2F00A7B9DA /* GBSocketBase.h */,
+				10330BBA1C9FDE2F00A7B9DA /* GBSocketClient.cpp */,
+				10330BBB1C9FDE2F00A7B9DA /* GBSocketClient.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		10330BBC1C9FDE2F00A7B9DA /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				10330BC01C9FDE2F00A7B9DA /* GBAnySDK.h */,
+				10330BC11C9FDE2F00A7B9DA /* ios */,
+			);
+			path = Platform;
+			sourceTree = "<group>";
+		};
+		10330BC11C9FDE2F00A7B9DA /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				10330C141CA0000F00A7B9DA /* GBUtils_ios.mm */,
+				10330C111C9FFE2C00A7B9DA /* OpenUDID.h */,
+				10330C121C9FFE2C00A7B9DA /* OpenUDID.m */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		10330BC51C9FDE2F00A7B9DA /* Script */ = {
+			isa = PBXGroup;
+			children = (
+				10330BC61C9FDE2F00A7B9DA /* lua-bindings */,
+			);
+			path = Script;
+			sourceTree = "<group>";
+		};
+		10330BC61C9FDE2F00A7B9DA /* lua-bindings */ = {
+			isa = PBXGroup;
+			children = (
+				10330BC71C9FDE2F00A7B9DA /* lua_gamebox.cpp */,
+				10330BC81C9FDE2F00A7B9DA /* lua_gamebox.h */,
+			);
+			path = "lua-bindings";
+			sourceTree = "<group>";
+		};
+		10330BC91C9FDE2F00A7B9DA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				10330BCA1C9FDE2F00A7B9DA /* GBButton.cpp */,
+				10330BCB1C9FDE2F00A7B9DA /* GBButton.h */,
+				10330BCC1C9FDE2F00A7B9DA /* GBForm.cpp */,
+				10330BCD1C9FDE2F00A7B9DA /* GBForm.h */,
+				10330BCE1C9FDE2F00A7B9DA /* GBList.cpp */,
+				10330BCF1C9FDE2F00A7B9DA /* GBList.h */,
+				10330BD01C9FDE2F00A7B9DA /* GBNumberLabel.cpp */,
+				10330BD11C9FDE2F00A7B9DA /* GBNumberLabel.h */,
+				10330BD21C9FDE2F00A7B9DA /* GBPanel.cpp */,
+				10330BD31C9FDE2F00A7B9DA /* GBPanel.h */,
+				10330BD41C9FDE2F00A7B9DA /* GBShaderButton.cpp */,
+				10330BD51C9FDE2F00A7B9DA /* GBShaderButton.h */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10330B931C9FDD5800A7B9DA /* GameBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10330B9D1C9FDD5900A7B9DA /* Build configuration list for PBXNativeTarget "GameBox" */;
+			buildPhases = (
+				10330B901C9FDD5800A7B9DA /* Sources */,
+				10330B911C9FDD5800A7B9DA /* Frameworks */,
+				10330B921C9FDD5800A7B9DA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameBox;
+			productName = GameBox;
+			productReference = 10330B941C9FDD5800A7B9DA /* libGameBox.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10330B8C1C9FDD5800A7B9DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wanpishu;
+				TargetAttributes = {
+					10330B931C9FDD5800A7B9DA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 10330B8F1C9FDD5800A7B9DA /* Build configuration list for PBXProject "GameBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10330B8B1C9FDD5800A7B9DA;
+			productRefGroup = 10330B951C9FDD5800A7B9DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10330B931C9FDD5800A7B9DA /* GameBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10330B901C9FDD5800A7B9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10330BD71C9FDE2F00A7B9DA /* GBLang.cpp in Sources */,
+				10330BE61C9FDE2F00A7B9DA /* GBButton.cpp in Sources */,
+				10330BD91C9FDE2F00A7B9DA /* GBUpdate.cpp in Sources */,
+				10330BDA1C9FDE2F00A7B9DA /* GBValue.cpp in Sources */,
+				10330BDE1C9FDE2F00A7B9DA /* md5.cpp in Sources */,
+				10330BE51C9FDE2F00A7B9DA /* lua_gamebox.cpp in Sources */,
+				10330BDB1C9FDE2F00A7B9DA /* GBDelegate.cpp in Sources */,
+				10330BE01C9FDE2F00A7B9DA /* GBSocketClient.cpp in Sources */,
+				10330BDC1C9FDE2F00A7B9DA /* GBShaderEffect.cpp in Sources */,
+				10330C131C9FFE2C00A7B9DA /* OpenUDID.m in Sources */,
+				10330BEA1C9FDE2F00A7B9DA /* GBPanel.cpp in Sources */,
+				10330BE81C9FDE2F00A7B9DA /* GBList.cpp in Sources */,
+				10330BE91C9FDE2F00A7B9DA /* GBNumberLabel.cpp in Sources */,
+				10330BD81C9FDE2F00A7B9DA /* GBSqlite.cpp in Sources */,
+				10330C151CA0000F00A7B9DA /* GBUtils_ios.mm in Sources */,
+				10330BDD1C9FDE2F00A7B9DA /* GBUtils.cpp in Sources */,
+				10330BDF1C9FDE2F00A7B9DA /* GBSocketBase.cpp in Sources */,
+				10330BEB1C9FDE2F00A7B9DA /* GBShaderButton.cpp in Sources */,
+				10330BE71C9FDE2F00A7B9DA /* GBForm.cpp in Sources */,
+				10330BD61C9FDE2F00A7B9DA /* GBCsv.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10330B9B1C9FDD5900A7B9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					CC_TARGET_OS_IPHONE,
+					"COCOS2D_DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				New_Setting = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../Classes ../Classes/Data ../Classes/UI ../../Cocos2dx ../../Cocos2dx/cocos ../../Cocos2dx/cocos/scripting/lua-bindings/manual ../../Cocos2dx/external ../../Cocos2dx/external/lua ../../Cocos2dx/external/lua/tolua ../../Cocos2dx/external/lua/luajit/include ../../Cocos2dx/cocos/ui ../../Cocos2dx/cocos/audio/include ../../Cocos2dx/cocos/storage/local-storage ../../Cocos2dx/cocos/network ../../Cocos2dx/cocos/platform";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		10330B9C1C9FDD5900A7B9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = CC_TARGET_OS_IPHONE;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				New_Setting = "";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../Classes ../Classes/Data ../Classes/UI ../../Cocos2dx ../../Cocos2dx/cocos ../../Cocos2dx/cocos/scripting/lua-bindings/manual ../../Cocos2dx/external ../../Cocos2dx/external/lua ../../Cocos2dx/external/lua/tolua ../../Cocos2dx/external/lua/luajit/include ../../Cocos2dx/cocos/ui ../../Cocos2dx/cocos/audio/include ../../Cocos2dx/cocos/storage/local-storage ../../Cocos2dx/cocos/network ../../Cocos2dx/cocos/platform";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+		10330B9E1C9FDD5900A7B9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "../../Cocos2dx/cocos/platform/ios/cocos2d-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				New_Setting = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../Classes ../Classes/Data ../Classes/UI ../../Cocos2dx ../../Cocos2dx/cocos ../../Cocos2dx/cocos/scripting/lua-bindings/manual ../../Cocos2dx/external ../../Cocos2dx/external/lua ../../Cocos2dx/external/lua/tolua ../../Cocos2dx/external/lua/luajit/include ../../Cocos2dx/external/chipmunk/include ../../Cocos2dx/cocos/ui ../../Cocos2dx/cocos/audio/include ../../Cocos2dx/cocos/storage/local-storage ../../Cocos2dx/cocos/network ../../Cocos2dx/cocos/platform";
+			};
+			name = Debug;
+		};
+		10330B9F1C9FDD5900A7B9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "../../Cocos2dx/cocos/platform/ios/cocos2d-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				New_Setting = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../Classes ../Classes/Data ../Classes/UI ../../Cocos2dx ../../Cocos2dx/cocos ../../Cocos2dx/cocos/scripting/lua-bindings/manual ../../Cocos2dx/external ../../Cocos2dx/external/lua ../../Cocos2dx/external/lua/tolua ../../Cocos2dx/external/lua/luajit/include ../../Cocos2dx/external/chipmunk/include ../../Cocos2dx/cocos/ui ../../Cocos2dx/cocos/audio/include ../../Cocos2dx/cocos/storage/local-storage ../../Cocos2dx/cocos/network ../../Cocos2dx/cocos/platform";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10330B8F1C9FDD5800A7B9DA /* Build configuration list for PBXProject "GameBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10330B9B1C9FDD5900A7B9DA /* Debug */,
+				10330B9C1C9FDD5900A7B9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10330B9D1C9FDD5900A7B9DA /* Build configuration list for PBXNativeTarget "GameBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10330B9E1C9FDD5900A7B9DA /* Debug */,
+				10330B9F1C9FDD5900A7B9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10330B8C1C9FDD5800A7B9DA /* Project object */;
+}

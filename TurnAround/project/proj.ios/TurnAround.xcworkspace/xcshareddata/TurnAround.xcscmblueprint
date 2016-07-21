@@ -1,0 +1,45 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b1306e3d-2316-6242-8894-a8e067f53df4++7732+++6D71157",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b1306e3d-2316-6242-8894-a8e067f53df4++7732+++CFF5C5E" : {
+
+    },
+    "b1306e3d-2316-6242-8894-a8e067f53df4++7732+++6D71157" : {
+
+    },
+    "b1306e3d-2316-6242-8894-a8e067f53df4++7732+++F4F0ADF" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b1306e3d-2316-6242-8894-a8e067f53df4++7732+++CFF5C5E" : 0,
+    "b1306e3d-2316-6242-8894-a8e067f53df4++7732+++6D71157" : 0,
+    "b1306e3d-2316-6242-8894-a8e067f53df4++7732+++F4F0ADF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7B96A75A-4EA8-4099-BCA7-82806BC51057",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b1306e3d-2316-6242-8894-a8e067f53df4++7732+++CFF5C5E" : "TurnAround\/",
+    "b1306e3d-2316-6242-8894-a8e067f53df4++7732+++6D71157" : "Cocos2dx\/",
+    "b1306e3d-2316-6242-8894-a8e067f53df4++7732+++F4F0ADF" : "TurnAround\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TurnAround",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "project\/proj.ios\/TurnAround.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.105\/svn\/%E5%A4%A9%E5%B2%B3%E7%A7%91%E6%8A%80",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b1306e3d-2316-6242-8894-a8e067f53df4++7732+++6D71157"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.105\/svn\/%E5%A4%A9%E5%B2%B3%E7%A7%91%E6%8A%80",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b1306e3d-2316-6242-8894-a8e067f53df4++7732+++CFF5C5E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.105\/svn\/%E5%A4%A9%E5%B2%B3%E7%A7%91%E6%8A%80",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b1306e3d-2316-6242-8894-a8e067f53df4++7732+++F4F0ADF"
+    }
+  ]
+}

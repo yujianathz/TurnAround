@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../../../Cocos2dx/cocos/scripting/lua-bindings/proj.ios_mac/cocos2d_lua_bindings.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../../Cocos2dx/cocos/cocos2d_libs.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../../GameBox/proj.ios/GameBox.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TurnAround.xcodeproj">
+   </FileRef>
+</Workspace>

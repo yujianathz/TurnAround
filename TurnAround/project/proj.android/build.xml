@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="TurnAround" default="help">
+		<property name="market_channels" value="官方"/>
+		<property name="app_version" value="1.0"/>
+		<property name="version_code" value="1"/>
+		<property name="app_name" value="植物大战宝石"/>
+
+ 		<property name="key.store" value="../../../AndroidKey/wanpishu.keystore"/>
+ 		<property name="key.alias" value="wanpishu.keystore"/>
+ 		<property name="key.store.password" value="123456"/>
+ 		<property name="key.alias.password" value="123456"/>
+ 
+ 		<property file="local.properties"/>
+    <loadproperties srcFile="project.properties" />
+ 
+    <import file="${sdk.dir}/tools/ant/build.xml" />
+    
+    <!-- 支持循环执行 -->       
+    <taskdef resource="net/sf/antcontrib/antcontrib.properties" >           
+        <classpath>              
+            <pathelement location="${env.ANT_ROOT}/../lib/ant-contrib-1.0b3.jar" />           
+        </classpath>       
+    </taskdef>           
+ 
+   	<target name="deploy">
+   			<copy file="AndroidManifest.xml" tofile="Backup.xml" overwrite="true"/>
+        <foreach target="edit_and_build" list="${market_channels}" param="channel" delimiter=","/>
+				<copy file="Backup.xml" tofile="AndroidManifest.xml" overwrite="true"/>
+				<delete file="Backup.xml"/>        				 
+    </target>  
+    
+    <target name="edit_and_build">			
+				<replaceregexp
+				    encoding="utf-8"
+				    file="AndroidManifest.xml"
+				    flags="s"
+				    match='android:name="UMENG_CHANNEL".+android:value="([^"]+)"'
+				    replace='android:name="UMENG_CHANNEL" android:value="${channel}"'/> 	
+    		    
+				<replaceregexp
+				    encoding="utf-8"
+				    file="AndroidManifest.xml"
+				    flags="s"
+				    match='android:versionName="([^"]+)"'
+				    replace='android:versionName="${app_version}"'/>	    		 
+				    
+				<replaceregexp
+				    encoding="utf-8"
+				    file="AndroidManifest.xml"
+				    flags="s"
+				    match='android:versionCode="([^"]+)"'
+				    replace='android:versionCode="${version_code}"'/>	  				 				       
+			
+      	<property name="out.final.file"  location="../Product/${app_name}_${channel}_v${app_version}.apk" />      	
+	    	<antcall target="clean" />  
+	    	<antcall target="release" />  
+    </target> 
+</project>

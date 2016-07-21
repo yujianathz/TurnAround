@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b1306e3d-2316-6242-8894-a8e067f53df4++7732",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b1306e3d-2316-6242-8894-a8e067f53df4++7732" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b1306e3d-2316-6242-8894-a8e067f53df4++7732" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FF929AFC-0188-40D7-9786-5FDAFAA56B32",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b1306e3d-2316-6242-8894-a8e067f53df4++7732" : "TurnAround\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TurnAround",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "project\/proj.ios\/TurnAround.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.105\/svn\/%E5%A4%A9%E5%B2%B3%E7%A7%91%E6%8A%80",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b1306e3d-2316-6242-8894-a8e067f53df4++7732"
+    }
+  ]
+}

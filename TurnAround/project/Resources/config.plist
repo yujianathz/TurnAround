@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UPDATE_SIZE</key>
+	<string>发现 %s 的更新！</string>
+	<key>UPDATE_URL</key>
+	<string>120.27.183.37</string>
+	<key>UPDATE_FOLDER</key>
+	<string>TurnAround</string>		
+</dict>
+</plist>

@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b1306e3d-2316-6242-8894-a8e067f53df4++114",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b1306e3d-2316-6242-8894-a8e067f53df4++114" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b1306e3d-2316-6242-8894-a8e067f53df4++114" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BC2B648D-FBD0-48C0-8E3B-ACDCD0B17F9C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b1306e3d-2316-6242-8894-a8e067f53df4++114" : "GameBox\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GameBox",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "proj.ios\/GameBox.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.105\/svn\/%E5%A4%A9%E5%B2%B3%E7%A7%91%E6%8A%80",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b1306e3d-2316-6242-8894-a8e067f53df4++114"
+    }
+  ]
+}

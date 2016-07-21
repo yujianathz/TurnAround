@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Classes\GBDelegate.cpp" />
+    <ClCompile Include="..\Classes\GBUtils.cpp" />
+    <ClCompile Include="..\Classes\UI\GBButton.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\GBList.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Data\GBValue.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\GBForm.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\GBPanel.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Data\GBLang.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Data\GBSqlite.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Platform\win32\GBUtils_win32.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Data\GBCsv.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\GBNumberLabel.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GBShaderEffect.cpp" />
+    <ClCompile Include="..\Classes\Network\GBSocketBase.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Network\GBSocketClient.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Script\lua-bindings\lua_gamebox.cpp">
+      <Filter>Script\lua-bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Data\GBUpdate.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MD5\md5.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\GBShaderButton.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\GBDefine.h" />
+    <ClInclude Include="..\Classes\GBDelegate.h" />
+    <ClInclude Include="..\Classes\GBUtils.h" />
+    <ClInclude Include="..\Classes\UI\GBButton.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\GBList.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Data\GBValue.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\GBForm.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\GBPanel.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Data\GBLang.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Data\GBSqlite.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Data\GBCsv.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\GBNumberLabel.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GBShaderEffect.h" />
+    <ClInclude Include="..\Classes\Network\GBSocketBase.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Network\GBSocketClient.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Script\lua-bindings\lua_gamebox.h">
+      <Filter>Script\lua-bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Data\GBUpdate.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MD5\md5.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\GBShaderButton.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="UI">
+      <UniqueIdentifier>{9c536d7d-c105-43ed-8793-4aa02254d608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{5b9790d9-056b-4969-a538-a5af44bbf7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{07784721-88a7-4a3e-a272-85fdf9937356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{ac46e413-a982-4f3b-8e6f-b6b8520c161b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{ee4c3599-397d-4173-b7dd-e5c71222cdb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\lua-bindings">
+      <UniqueIdentifier>{20d0957e-dd79-4c3d-85b4-2fb75b99179b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{fc0c6c6f-bfc5-493e-ad1b-e1841bd81e8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
